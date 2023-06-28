@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 502e19914cef4f2aac78ec03cd7f9927, type: 3}
+  m_Name: Heal
+  m_EditorClassIdentifier: 
+  _name: Heal
+  _description: Same as damage, but reverse
+  _distance: 2
+  _affects:
+  - _affectType: 1
+    _amount: 2
+    _angle: 0
+    _force: 0
+  _targetType: 1
+  _targetSelectionType: 0
+  _targetsCount: 0
+  _isCard: 1
+  _holder: 2
+  _icon: {fileID: 21300000, guid: b56ca4ee5253d6c409b41ef681db8924, type: 3}
+  _skillType: 2
+  _cost: 0
+  _add: 2
+  _copies: 3
